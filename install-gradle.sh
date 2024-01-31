@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-GRADLE_VERSION="8.1.1"
+GRADLE_VERSION="8.5"
 
 curl -L https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip -o /tmp/gradle.zip
 rm -rf /opt/gradle /tmp/gradle
